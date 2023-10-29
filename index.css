@@ -1,0 +1,92 @@
+body{
+	background-color: bisque;
+	margin: 0px;
+	padding: 0px;
+}
+.header{
+	display: flex;
+	margin: 20px;
+	background-color: white;
+}
+.logo{
+	flex-basis: 50%;
+	padding: 20px;
+}
+.menu{
+	flex-basis: 50%;
+	padding: 40px;
+	padding-top: 40px;
+}
+.logo img{
+	width: 150px;
+}
+.menu a{
+	flex-basis: 25%;
+}
+.menu img{
+	flex-basis: 25%;
+}
+.menu a{
+	padding-right: 60px;
+	text-decoration: none;
+	font-size: 22px;
+	padding-bottom: 30px;
+}
+.menu a:hover{
+	color: black;
+	background-color: bisque;
+	font-style: italic;
+
+}
+.menu img{
+	width: 100px;
+	padding-left: 40px;
+
+}
+.slide{
+	display: flex;
+	padding: 20px;
+}
+.left-slide{
+	flex-basis: 50%;
+}
+.right-slide{
+	flex-basis: 30%;
+}
+.left-slide h1{
+	font-size: 30px;
+	color: blue;
+}
+.left-slide p{
+	font-size: 20px;
+}
+
+}
+.left-slide img{
+	flex-basis: 50%;
+
+}
+.left-slide img{
+
+}
+.left-slide img{
+	margin: 20px;
+	width: 250px;
+	height: 200px;
+}
+.right-slide img{
+	width: 600px;
+	height: 850px;
+}
+.fdaln{
+	flex-basis: 20%;
+	display: flex;
+	background-color: black;
+}
+
+.fdaln footer{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	padding-left: 500px;
+}

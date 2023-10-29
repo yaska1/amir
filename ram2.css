@@ -1,0 +1,100 @@
+body{
+	background-color: bisque;
+}
+.row{
+	display: flex;
+
+}
+.pro1{
+	flex-basis: 50%;
+	padding-left: 60px;
+	padding-top: 60px;
+	margin: 20px;
+	
+    
+    
+}
+.pro2{
+	flex-basis: 50%;
+	padding-right: 60px;
+	padding-left: 30px;
+	margin: 20px;
+	padding-top: 60px;
+
+	
+	
+}
+.pro1 img{
+	width: 500px;
+	height: 400px;
+	background-color: blue;
+}
+.pro1 h1,h2{
+	font-size: 20px;
+}
+.pro2 img{
+	width:500px;
+	height: 400px;
+	
+
+}
+.cln{
+	display: flex;
+	
+}
+.pro3{
+	flex-basis: 50%;
+	padding-left: 60px;
+
+	
+	
+	
+}
+.pro4{
+	flex-basis: 50%;
+	padding-right:60 ;
+	
+	
+}
+.pro3 img{
+	width: 450px;
+	height: 450;
+	padding-top: 40px;
+	padding-left: 20px;
+}
+.pro4 img{
+	width: 450px;
+	height: 450px;
+	padding-top: 40px;
+}
+.title h1{
+	color: blue;
+	font-size: 50px;
+	text-align: center;
+	padding-right: 30px;
+
+}
+.pro1 h1{
+	text-align: center;
+}
+.pro1 h2{
+	text-align: center;
+}
+.pro2 h1{
+	text-align: center;
+}
+.pro2 h2{
+	text-align: center;
+}
+.pro3 h1{
+	text-align: center;
+}
+.pro3 h2{
+	text-align: center;
+}
+.pro4 h1{
+	text-align: center;
+}
+.pro4 h2{
+	text-align: center;
+}
